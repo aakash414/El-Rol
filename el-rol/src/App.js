@@ -13,7 +13,7 @@ function App() {
           <Route exact path="/landing" Component={Landing}/>
           {/* <Route exact path="/login" Component={login}/> */}
         </Routes>
-      </BrowserRouter>    
+      </BrowserRouter>
     </div>
   );
 }

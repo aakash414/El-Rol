@@ -7,6 +7,9 @@ import { createHelia } from "helia";
 import { strings } from "@helia/strings";
 import { json } from "@helia/json";
 import dotenv from "dotenv";
+import multer from "multer"; // For handling multipart/form-data
+const upload = multer({ dest: "uploads/" }); // Specify a temporary upload directory
+
 dotenv.config();
 
 const app = express();

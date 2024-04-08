@@ -1,10 +1,5 @@
+import data from "../controllers/data.js";
 
-const datapost = require('../controllers/data.js');
-
-
-module.exports = function(app) {
-  
-    app.post('/datapost', datapost.data);
- 
-    
-};
+export default function (app) {
+  app.post("/datapost", data);
+}

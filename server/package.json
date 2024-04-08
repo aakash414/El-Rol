@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "@thirdweb-dev/sdk": "^4.0.59",
+    "axios": "^1.6.8",
+    "express": "^4.19.2",
+    "helia": "^4.1.0",
+    "web3": "^4.7.0"
   }
 }
